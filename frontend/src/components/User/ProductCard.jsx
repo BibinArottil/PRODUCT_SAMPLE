@@ -12,7 +12,7 @@ export default function ProductCard({data}) {
         <div className='flex flex-col items-center mt-4'>
             <h1 className='text-3xl font-semibold'>{value.name}</h1>
             <p className='font-semibold mt-1 text-lg'>{`₹${value.price}`}</p>
-            <button className='py-2 px-3 border mt-1 border-green-300 rounded'>Add to cart</button>
+            <button className='py-2 px-3 border mt-1 border-green-300 rounded hover:text-white hover:bg-green-500'>Add to cart</button>
         </div>
     </div>
         )

@@ -14,7 +14,7 @@ export default function ProductList() {
 
   const fetchData = () => {
     try {
-      axios.get("/admin/products").then((res) => {
+      axios.get("/admin/productss").then((res) => {
         setProducts(res.data);
       });
     } catch (error) {
